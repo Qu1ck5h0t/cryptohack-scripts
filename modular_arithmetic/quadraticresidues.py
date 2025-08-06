@@ -25,7 +25,7 @@ def TonelliShanks(inp, p):
   elif t == 1:
     return R
   while t != 1:  
-    i = 0
+    i = 1
     while ((t**2**i)%p != 1):
       i = i + 1
     b = (c ** 2 ** (m-i-1))%p
